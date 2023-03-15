@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import { YandexMetrikaHit, Lightbox, Async, CarouselKit, Icon } from 'daks-svelte';
-  import { Infographic } from '$lib/components/home';
+  import Infographic from '$lib/components/home/Infographic.svelte';
 
   import { screens } from '$lib/assets/images/gallery';
   const getter = async () => ({

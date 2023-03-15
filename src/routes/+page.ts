@@ -1,8 +1,8 @@
 import type { PageLoad } from './$types';
 export const load: PageLoad = async () => ({
   logo: {
-    image: (await import(`$lib/assets/images/design/skm/logo.png?webp`)).default,
-    thumbnail: (await import(`$lib/assets/images/design/skm/logo.png?w=210&webp`)).default
+    image: (await import(`$lib/assets/images/skm/logo.png?webp`)).default,
+    thumbnail: (await import(`$lib/assets/images/skm/logo.png?w=210&webp`)).default
   },
   infographic: [
     {

@@ -1,4 +1,5 @@
 import { promises as fs } from 'fs';
+import { json } from '@sveltejs/kit';
 import { resolve } from 'path';
 
 import app from '$configs/app';
@@ -20,10 +21,4 @@ const data = {
 
 export const prerender = true;
 
-export async function GET() {
-  return new Response(JSON.stringify(data), {
-    headers: {
-      'Content-Type': 'application/json'
-    }
-  });
-}
+export const GET = async () => json(data);

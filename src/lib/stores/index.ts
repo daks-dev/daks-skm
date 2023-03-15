@@ -1,5 +1,6 @@
 import { readable, writable } from 'svelte/store';
 
+/*
 export const time = readable(0, function start(set) {
   const date = Date.now();
   const interval = setInterval(() => {
@@ -37,3 +38,4 @@ export const route = (() => {
 })();
 
 export const count = writable(0);
+*/
