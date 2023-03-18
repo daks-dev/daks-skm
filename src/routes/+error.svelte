@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-  <title>{$page.status}</title>
+  <title>СКМ • {$page.status}</title>
   <meta
     name="description"
     content="Ошибка в работе приложения" />

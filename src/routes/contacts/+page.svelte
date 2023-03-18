@@ -41,7 +41,7 @@
   {description} />
 
 <main
-  class="justify-between gap-8 min-h-screen -md:mb-0"
+  class="grow gap-8"
   itemprop="mainContentOfPage">
   <header class="content mb-0">
     <h1 class="title">Контакты</h1>
@@ -77,11 +77,14 @@
     </Lightbox>
   </div>
 
-  <div class="md:content">
+  <div
+    class="
+      content flex grow
+      h-[40vmax] xs:h-[35vmax] sm:h-[30vmax] md:h-[25vmax] lg:h-auto">
     <YandexMap
       class="
-        h-[40vmax] border-t-4 border-slate-400
-        md:h-auto md:aspect-[5/2] md:border-4"
+        w-full min-h-full overflow-hidden
+        border-4 border-slate-400"
       {data} />
   </div>
 </main>

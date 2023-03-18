@@ -3,11 +3,6 @@
 export const prerender = true;
 
 import type { LayoutLoad } from './$types';
-export const load: LayoutLoad = ({ /* parent, data, */ url}) => {
-  // await parent();
-  // const { ... } = data;
-  return {
-    // ...data,
-    referesh: url.pathname
-  };
-};
+export const load: LayoutLoad = ({ url}) => ({
+  refresh: url.pathname
+});

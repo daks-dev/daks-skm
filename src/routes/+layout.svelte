@@ -13,8 +13,8 @@
   import '../app.css';
   import '$iconify';
 
-  import type { PageData } from './$types';
-  export let data: PageData;
+  import type { LayoutData } from './$types';
+  export let data: LayoutData;
 
   import { app, nav } from '$configs';
 
@@ -26,7 +26,7 @@
 <RouteTransition
   class="flex flex-col grow"
   mode={1}
-  referesh={data.referesh}>
+  refresh={data.refresh}>
   <slot />
 </RouteTransition>
 

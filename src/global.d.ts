@@ -1,7 +1,15 @@
 /// <reference types="@sveltejs/kit" />
 
-declare global {
-  // interface Document {}
+// declare global { interface Document {} }
+
+declare module '*.svg' {
+  const value: string;
+  export = value;
+}
+
+declare module '*.avif' {
+  const value: string;
+  export = value;
 }
 
 declare module '*.webp' {
@@ -9,7 +17,7 @@ declare module '*.webp' {
   export = value;
 }
 
-declare module '*.gif' {
+declare module '*.png' {
   const value: string;
   export = value;
 }
@@ -20,16 +28,6 @@ declare module '*.jpg' {
 }
 
 declare module '*.jpeg' {
-  const value: string;
-  export = value;
-}
-
-declare module '*.png' {
-  const value: string;
-  export = value;
-}
-
-declare module '*.svg' {
   const value: string;
   export = value;
 }
