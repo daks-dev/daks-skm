@@ -10,7 +10,7 @@ const toStatic = process.env.ADAPTER === 'static';
 
 const adapter = toStatic ? adapterStatic : adapterNode;
 const options = {
-  fallback: toStatic ? 'error_page.html' : undefined,
+  fallback: toStatic ? '200.html' : undefined,
   precompress: true
 };
 
@@ -32,7 +32,7 @@ const config = {
       serviceWorker: 'node_modules/daks-svelte/dist/app/service-worker'
     }
 
-    // inlineStyleThreshold: 32768
+    // inlineStyleThreshold: Infinity
   }
 };
 
