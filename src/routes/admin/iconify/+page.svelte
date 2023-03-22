@@ -34,7 +34,7 @@
         transition duration-300 ease-in-out"
       href="/admin">
       <Icon
-        class="w-12 h-12 drop-shadow-md"
+        class="w-8 h-8 -mt-4 drop-shadow-md"
         icon="ic:outline-settings" />
     </a>
     <h1 class="title grow">Iconify</h1>
@@ -46,7 +46,7 @@
       target="_blank">
       <img
         class="w-full h-auto"
-        src="/icons/github.svg"
+        src="/assets/icons/github.svg"
         alt="GitHUB" />
     </a>
   </header>

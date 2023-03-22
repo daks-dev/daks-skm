@@ -32,7 +32,7 @@
       target="_blank">
       <img
         class="w-full h-auto"
-        src="/icons/github.svg"
+        src="/assets/icons/github.svg"
         alt="GitHUB"
         decoding="async"
         loading="lazy" />

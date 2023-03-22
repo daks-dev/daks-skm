@@ -90,7 +90,7 @@ export const squares = async () => [
 export const captions = [];
 
 export default async () => ({
-  images: await sources(),
+  sources: await sources(),
   thumbnails: await squares()
 });
 

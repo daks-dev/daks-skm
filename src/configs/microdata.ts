@@ -2,7 +2,7 @@ const config = {
   organization: {
     itemtype: 'http://schema.org/Organization',
     name: 'Строительная компания «Масштаб»',
-    logo: '/images/logo.webp',
+    logo: '/assets/images/logo.webp',
     email: 'mail@skm.moscow', // skm.moscow1@yandex.ru
     telephone: '+7 (495) 323-99-23',
     address: {

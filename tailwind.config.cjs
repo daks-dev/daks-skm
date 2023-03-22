@@ -7,8 +7,17 @@ module.exports = {
 
   presets: [
     require('daks-svelte/tailwindcss/presets/font-family.cjs'),
-    require('daks-svelte/tailwindcss/presets/common.cjs'),
-  ]
+    require('daks-svelte/tailwindcss/presets/common.cjs')
+  ],
 
-  // theme: { extend: {} }
+  /*
+  theme: {
+    extend: {
+      backgroundImage: {
+        waiting: 'url('/assets/icons/spinners/clock.svg')',
+        loading: 'url('/assets/icons/spinners/90-ring-bg.svg')'
+      }
+    }
+  }
+  */
 };

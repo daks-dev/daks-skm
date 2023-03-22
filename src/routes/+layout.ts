@@ -1,5 +1,4 @@
-//import { dev } from '$app/environment';
-//export const csr = dev;
+// export const csr = false;
 export const prerender = true;
 
 import type { LayoutLoad } from './$types';

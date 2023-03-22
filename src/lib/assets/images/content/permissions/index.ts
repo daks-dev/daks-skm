@@ -24,6 +24,6 @@ export const a4 = async () => [
 ];
 
 export default async () => ({
-  images: await sources(),
+  sources: await sources(),
   thumbnails: await a4()
 });
