@@ -1,5 +1,5 @@
-import type { PageLoad } from './$types';
-export const load: PageLoad = async () => ({
+import type { PageServerLoad } from './$types';
+export const load: PageServerLoad = async () => ({
   infographic: [
     {
       icon: (

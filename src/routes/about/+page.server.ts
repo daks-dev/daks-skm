@@ -1,5 +1,5 @@
-import type { PageLoad } from './$types';
-export const load: PageLoad = async () => ({
+import type { PageServerLoad } from './$types';
+export const load: PageServerLoad = async () => ({
   image: {
     source: (await import(`$lib/assets/images/content/about/00.jpg?webp`)).default,
     thumbnail: (

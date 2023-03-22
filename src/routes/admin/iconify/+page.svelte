@@ -34,7 +34,7 @@
         transition duration-300 ease-in-out"
       href="/admin">
       <Icon
-        class="w-8 h-8 -mt-4 drop-shadow-md"
+        class="w-8 h-8 -mt-3 drop-shadow-md"
         icon="ic:outline-settings" />
     </a>
     <h1 class="title grow">Iconify</h1>
@@ -42,7 +42,7 @@
       rel="noreferrer nofollow"
       class="w-24 sm:w-32 hover:scale-110
              transition-all duration-300 ease-in-out"
-      href="https://github.com/daks-dev/daks-skm.git"
+      href="https://github.com/daks-dev/daks-skm"
       target="_blank">
       <img
         class="w-full h-auto"

@@ -27,6 +27,9 @@
       zoom: 17,
       behaviors: ['drag', 'dblClickZoom', 'rightMouseButtonMagnifier', 'multiTouch'],
       controls: ['zoomControl', 'fullscreenControl']
+    },
+    options: {
+      autoFitToViewport: 'always'
     }
   };
 
