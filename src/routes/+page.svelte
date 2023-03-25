@@ -3,7 +3,7 @@
   import { YandexMetrikaHit, Lightbox, Async, CarouselKit, Icon } from 'daks-svelte';
   import Infographic from '$lib/components/home/Infographic.svelte';
 
-  import { screens } from '$lib/assets/images/gallery';
+  import { screens } from '$lib/assets/images/gallery/index.async';
   const getter = async () => ({
     dataset: await screens()
   });

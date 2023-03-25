@@ -1,25 +1,5 @@
 // const rand = (min: number, max: number) => Math.round(Math.random() * (max - min) + min);
 //`https://picsum.photos/seed/${rand(0,200)}/800/800`
-/*
-const loader = async (directives = '') => {
-  directives = '?' + directives + (directives ? '&' : '') + 'webp';
-  const images = [];
-  for (let i = 0; i < 19; i++)
-    images.push(
-      (
-        await import(
-          `./${(i < 10 ? '0' : '') + i}.jpg${directives}`
-        )
-      ).default
-    );
-  console.log(images);
-  return images;
-};
-*/
-
-// import type { ImageMeta, Caption, DataImage } from 'daks-svelte/dist/types'
-// : Promise<ImageMeta[]>
-// : Promise<DataImage[]>
 
 export const sources = async () => [
   (await import(`./00.jpg?webp`)).default,
@@ -93,11 +73,3 @@ export default async () => ({
   sources: await sources(),
   thumbnails: await squares()
 });
-
-/*
-export default async (fn: () => any) =>
-  (await fn()).reduce(
-    (res: any, val: any, key: number) => ((res[key] = Object.assign(val, captions[key])), res),
-    Array(0)
-  );
-*/
